@@ -75,3 +75,8 @@ TEST(TestDialString, testParsingProtocolOnly) {
     EXPECT_EQ("", res.unwrap().address);
     EXPECT_TRUE(res.unwrap().service.empty());
 }
+
+TEST(TestDialString, testParsingNonAtomProtocol) {
+	auto res = tryParseDailString("somelongvalue:87212");
+	ASSERT_TRUE(res.isError());
+}
