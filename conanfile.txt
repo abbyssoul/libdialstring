@@ -2,7 +2,11 @@
 libsolace/0.3.8
 
 [options]
-libsolace:shared=False
+*:shared=False
 
 [generators]
 cmake
+
+[build_requires]
+gtest/1.10.0
+
