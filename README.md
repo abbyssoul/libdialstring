@@ -30,18 +30,18 @@ A _library_ defining 9p inspired DialString type.
 
 # Dialstrings
 DialString is Plan9 equivalent of URI, but simpler.
-In general dial string is a string in a format: "[protocol:]address[:service]"
+In general dial string is a string in a format: `[protocol:]address[:service]`
 For example:
-- "tcp:google.com:http"
-- "udp:10.1.2.3:32"
-- "tipc:0.2.117:81"
-- "tcp:example.com:ssh"
-- "unix:/var/run/socket"
-- "some_id"
+- `tcp:google.com:http`
+- `udp:10.1.2.3:32`
+- `tipc:0.2.117:81`
+- `tcp:example.com:ssh`
+- `unix:/var/run/socket`
+- `some_id`
 
 # Using this library
 
-```
+```c++
 // One header file to include DialString type
 #include <dialstring/dialstring.hpp>
 
