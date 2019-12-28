@@ -1,18 +1,18 @@
 # libdialstring [![C++ standard][c++-standard-shield]][c++-standard-link] [![License][license-shield]][license-link]
 ---
 [![TravisCI][travis-shield]][travis-link]
+[![LGTM][LGTM-shield]][LGTM-link]
 <!--[![Codecov][codecov-shield]][codecov-link]
 [![Coverity][coverity-shield]][coverity-link]
 [![Coverage Status][coveralls-shield]][coveralls-link]-->
-[![LGTM][LGTM-shield]][LGTM-link]
 
 
 [c++-standard-shield]: https://img.shields.io/badge/c%2B%2B-14/17/20-blue.svg
 [c++-standard-link]: https://en.wikipedia.org/wiki/C%2B%2B#Standardization
 [license-shield]: https://img.shields.io/badge/License-Apache%202.0-blue.svg
 [license-link]: https://opensource.org/licenses/Apache-2.0
-[travis-shield]: https://travis-ci.org/abbyssoul/libdialstring.png?branch=master
-[travis-link]: https://travis-ci.org/abbyssoul/libdialstring
+[travis-shield]: https://travis-ci.com/abbyssoul/libdialstring.svg?branch=master
+[travis-link]: https://travis-ci.com/abbyssoul/libdialstring
 
 [LGTM-shield]: https://img.shields.io/lgtm/grade/cpp/github/abbyssoul/libdialstring.svg
 [LGTM-link]: https://lgtm.com/projects/g/abbyssoul/libdialstring/alerts/
