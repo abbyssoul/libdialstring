@@ -42,13 +42,14 @@ int usage(const char* progname) {
 void parseAndPrint(const char* arg) {
 	auto parseResult = tryParseDailString(arg);
 	if (!parseResult) {
-		std::cerr << "Failed to parse \"" << arg << "\": " << parseResult.getError();
+		std::cerr << "Failed to parse \"" << arg << "\": " << parseResult.getError() << '\n';
 		return;
 	}
 
 	auto const& ds = *parseResult;
 
-	char protoString[16];
+	constexpr auto const N = sizeof(AtomValue);
+	char protoString[N + 1];
 	atomToString(ds.protocol, protoString);
 
 	std::cout << "protocol: \"" << protoString << "\"\n"
@@ -67,6 +68,8 @@ int main(int argc, char* const* argv) {
 
 	for (int i = 1; i < argc; ++i) {
 		parseAndPrint(argv[i]);
+		if (i != argc - 1)
+			std::cout << '\n';
 	}
 
 	return EXIT_SUCCESS;

@@ -40,8 +40,9 @@ extern const Solace::AtomValue kProtocolTIPC;
  *  - "tcp:google.com:http"
  *  - "udp:10.1.2.3:32"
  *  - "tipc:0.2.117:81"
- *  - "192.2.1.4:ssh"
+ *  - "tcp:example.com:ssh"
  *  - "unix:/var/run/socket"
+ *  - "some_id"
  *
  */
 struct DialString {
