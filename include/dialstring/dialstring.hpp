@@ -24,13 +24,13 @@
 
 namespace styxe {
 
+inline constexpr Solace::AtomValue kProtocolNone = Solace::atom("");
+inline constexpr Solace::AtomValue kProtocolUnix = Solace::atom("unix");
+inline constexpr Solace::AtomValue kProtocolTCP = Solace::atom("tcp");
+inline constexpr Solace::AtomValue kProtocolUDP = Solace::atom("udp");
+inline constexpr Solace::AtomValue kProtocolSCTP = Solace::atom("sctp");
+inline constexpr Solace::AtomValue kProtocolTIPC = Solace::atom("tipc");
 
-extern const Solace::AtomValue kProtocolNone;
-extern const Solace::AtomValue kProtocolUnix;
-extern const Solace::AtomValue kProtocolUDP;
-extern const Solace::AtomValue kProtocolTCP;
-extern const Solace::AtomValue kProtocolSCTP;
-extern const Solace::AtomValue kProtocolTIPC;
 
 
 /**

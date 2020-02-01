@@ -21,14 +21,6 @@ using namespace Solace;
 using namespace styxe;
 
 
-const AtomValue styxe::kProtocolNone = atom("");
-const AtomValue styxe::kProtocolUnix = atom("unix");
-const AtomValue styxe::kProtocolTCP = atom("tcp");
-const AtomValue styxe::kProtocolUDP = atom("udp");
-const AtomValue styxe::kProtocolSCTP = atom("sctp");
-const AtomValue styxe::kProtocolTIPC = atom("tipc");
-
-
 Result<DialString, Error>
 styxe::tryParseDailString(Solace::StringView data) noexcept {
 	auto result = DialString{kProtocolNone, data};
