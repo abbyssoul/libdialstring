@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.12)
 project(dialstring)
 set(PROJECT_DESCRIPTION "Plan9 type Dial String)")
 
-
 option(COVERAGE "Generate coverage data" OFF)
 option(SANITIZE "Enable 'sanitize' compiler flag" OFF)
 option(PROFILE "Enable profile information" OFF)
