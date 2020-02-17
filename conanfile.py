@@ -27,7 +27,7 @@ class LibdialstringConan(ConanFile):
        "url": "auto",
        "revision": "auto"
     }
-    requires = "libsolace/0.3.9"
+    requires = "libsolace/0.3.10@abbyssoul/stable"
     build_requires = "gtest/1.10.0"
 
     @property
