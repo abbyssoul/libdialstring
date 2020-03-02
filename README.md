@@ -1,3 +1,7 @@
+DEPRECATED libdialstring IS NOW DEPRECATED.
+User DialString was moved to [libsolace](https://github.com/abbyssoul/libsolace).
+This repository is now DEPRECATED.
+
 # libdialstring [![C++ standard][c++-standard-shield]][c++-standard-link] [![License][license-shield]][license-link]
 ---
 [![TravisCI][travis-shield]][travis-link]
